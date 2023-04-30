@@ -1,0 +1,30 @@
+# Site settings
+title: James Mount
+email: myemal@example.com
+description:  This is a dummy website that is part of James Mount's website building guide.
+baseurl: "/building_a_static_website_part_2" # the subpath of your site, e.g. /blog
+url: "https://jamesmount.tech" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jmount1992
+github_username:  jmount1992
+
+timezone: Australia/Brisbane
+
+# Build settings
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+# Minimal Mistakes - Site Author Configuration
+author:
+name: "James Mount"
+bio: "I am a human being."
+location: "Somewhere"
+links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:myemail@example.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/jmount1992"
